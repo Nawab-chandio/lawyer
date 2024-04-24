@@ -1,0 +1,22 @@
+.teamStyle{
+  background-color: #161D27;
+}
+.ourTeam{
+  color: #CF8E35;
+  justify-content: center;
+  display: flex;
+}
+
+.ourTeamHeroText{
+  color: #fff;
+  font-family: "Californian FB" !important;
+  font-size: 65px !important;
+  justify-content: center;
+  display: flex;
+}
+
+.teamPictures{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

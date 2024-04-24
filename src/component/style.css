@@ -1,0 +1,346 @@
+* {
+  padding: 0;
+}
+
+.CaseStudy {
+  color: #fff;
+  font-family: "Californian FB";
+  font-weight: 700;
+  font-size: 65px;
+}
+
+.latestWork {
+  color: #CF8E35;
+  font-family: 'Californian FB';
+
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.navListItem{
+  color: #fff;
+  cursor: pointer;
+  font-family:'Californian FB' !important;
+  text-decoration: none;
+}
+
+.navItems{
+  cursor: pointer;
+  color: #fff;
+  font-family: 'Californian FB' !important;
+}
+
+.navbar {
+  padding: 30px 50px 30px 70px;
+  display: flex;
+  word-spacing: 12px;
+  justify-content: center;
+  align-items: center;
+  background:  #161D27 ;
+
+}
+
+.navbarList{
+  /* padding: 30px 50px  30px 70px; */
+  display: flex;
+  word-spacing: 12px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn{
+  padding-left: 35px;
+  font-family: 'Californian FB' !important;
+}
+
+
+.get_qoute {
+  width: 200px;
+  height: 45px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: #fff;
+  color: black;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Californian FB';
+  cursor: pointer;
+  overflow: hidden; 
+  border: #CF8E35;
+}
+
+.ArrowOutwardIcon{
+  background-color: #fff;
+  font-size: 10px;
+  padding-left: 5px;
+}
+
+.get_qoute:hover {
+  background-color: #CF8E35;
+  width: 100%; 
+  transition-property: width;
+  transition-duration: .5s;
+  transition-delay: .4s;
+}
+
+.get_qoute:hover .ArrowOutwardIcon{
+  background-color: #CF8E35;
+  padding-left: 5px;
+  transform: rotate(45deg) ;
+}
+
+
+/* Main body style */
+
+.mainBody{
+  padding: 50px 70px;
+  background: linear-gradient(180deg, #161D27 0%, #161D27 57.47%, #1F2732 82.67%);
+
+}
+
+.for_justice {
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: underline;
+  color: #fff;
+  font-family: 'Californian FB', serif !important;
+  text-decoration-skip-ink: auto; /* Add this line */
+}
+
+
+.main_content{
+   font-size: 50px;
+   color: #fff;
+   font-weight: bold;
+}
+
+.leaderTypo{
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  font-family: 'Californian FB' !important;
+  padding-bottom: 10px;
+}
+.arrowIcon{
+  color: #fff;
+  padding: 0px 20px;
+}
+.arrowIcon :hover{
+  color: #CF8E35;
+}
+
+.arrowStyle{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #fff;
+}
+
+
+/* card style */
+
+.card {
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  transition: background-color 0.3s ease; 
+}
+
+.card:hover {
+  background-color: #CF8E35; 
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(207, 142, 53, 0) 0%, rgba(207, 142, 53, 0) 100%);
+  transition: background-color 1.s ease; 
+}
+
+.card:hover::before {
+  background: linear-gradient(to bottom, rgba(207, 142, 53, 10) 0%, rgba(207, 142, 53, 10.7) 100%);
+  transition: background-color 1.s ease; 
+
+}
+.card::before {
+  content: "Lorem Ipsum";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; 
+  font-size: 20px; 
+  opacity: 0; 
+  transition: opacity 0.5s ease, bottom 0.6s ease;
+  text-align: center;
+}
+
+.card::after {
+  content: "Lorem ipsum dolor sit amet, elit is a consectetur adipiscing elit sed do eiusmod"; 
+  position: absolute;
+  bottom: -50px; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  color: white; 
+  font-size: 14px; 
+  opacity: 0; 
+  transition: opacity 0.5s ease, bottom 0.7s ease;
+  text-align: center;
+}
+
+
+
+
+.card:hover::before,
+.card:hover::after {
+  opacity: 1;
+}
+
+.card:hover::after {
+  bottom: 50%; 
+}
+
+
+
+
+
+.img:hover  {
+  filter: brightness(1%); 
+  background-color:#CF8E35
+}
+
+.marquee{
+  font-size: 65px;
+  font-weight: 700;
+  color: #CF8E35;
+  font-family: "Californian FB" !important;
+}
+
+/* Expe */
+
+.expParent {
+padding-left: 70px;
+background-color: #161d27;
+display: flex;
+}
+.expParent1 {
+  display: flex;
+  justify-content: end;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-image: url(/src/Assets/girl.png);
+  height: 600px;
+  /* max-width: 507px !important; */
+  }
+
+
+.heroTypo{
+  font-size: 128px !important;
+  font-weight: 400;
+  font-family: 'Californian FB' !important;
+  color: #ffffff;
+    font-family: 'Californian FB' !important;
+    justify-content: flex-start !important;
+}
+
+.expYears{
+  color: #CF8E35;
+  font-family: 'Californian FB' !important;
+  font-size: 113px !important;
+  justify-content: center;
+  /* align-items: center; */
+  display: flex;
+  border: 1px solid blueviolet;
+}
+.expYears1{
+  color: #ffffff;
+  font-family: 'Californian FB' !important;
+  font-size: 20px !important;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.expContent{
+  color: #ffffff;
+  font-family: 'Californian FB' !important;
+  font-size: 20px !important;
+  font-weight: 400 !important;
+}
+
+.numList{
+  color: #fff;
+
+}
+.divider{
+  padding: 10px 0px;
+  color: #fff !important
+
+}
+
+.TypoText{
+  padding: 10px 0px;
+}
+
+.Numbers{
+  color: #CF8E35;
+  
+}
+
+#scroll-container {
+  /* border: 3px solid black;
+  border-radius: 5px;
+  overflow: hidden; */
+  font-size: 65px;
+  font-weight: 700;
+  color: #CF8E35;
+  font-family: "Californian FB" !important;
+}
+
+#scroll-text {
+  text-align: right;
+
+  /* animation properties */
+  -moz-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  
+  -moz-animation: my-animation 15s linear infinite;
+  -webkit-animation: my-animation 15s linear infinite;
+  animation: my-animation 15s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from { -moz-transform: translateX(-100%); }
+  to { -moz-transform: translateX(100%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateX(-100%); }
+  to { -webkit-transform: translateX(100%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  to {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+}
+
+
+
+
