@@ -16,6 +16,7 @@ function OurTeam() {
       <Grid item xs={8} className='teamPictures'>
       <img src={HeroPicture} alt='Hero Profile'/>
       <img src={HeroPicture} alt='Hero Profile'/>
+      <img src={HeroPicture} alt='Hero Profile'/>
 
       </Grid>
     </Grid>
